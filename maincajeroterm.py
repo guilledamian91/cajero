@@ -2,7 +2,7 @@ import sqlite3
 import tkinter as tk
 from tkinter import Frame, ttk, messagebox
 from time import localtime, asctime
-# Creado por Andres Ordoñez
+
 conexion = sqlite3.connect("cajero.db")
 cursor=conexion.cursor()
 
